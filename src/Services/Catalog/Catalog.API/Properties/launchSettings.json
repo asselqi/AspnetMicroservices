@@ -8,7 +8,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "dotnetRunMessages": true,
-      "applicationUrl": "http://localhost:5013"
+      "applicationUrl": "http://localhost:5133"
     },
     "IIS Express": {
       "commandName": "IISExpress",
@@ -18,11 +18,10 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Catalg.API": {
+    "Catalog.API": {
       "commandName": "Project",
       "workingDirectory": "C:\\Users\\lenovo\\source\\repos\\AspnetMicroservices\\src\\Services\\Catalog\\Catalog.API",
       "applicationUrl": "http://localhost:5000",
-      "launchBrowser": true,
       "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
@@ -34,7 +33,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:19726",
+      "applicationUrl": "http://localhost:5292",
       "sslPort": 0
     }
   }
