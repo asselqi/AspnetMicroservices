@@ -18,9 +18,9 @@ namespace Catalog.API.Repositories
             await _catalogContext.Products.InsertOneAsync(product);
         }
 
-        public async Task<bool> DeleteProduct(Product product)
+        public async Task<bool> DeleteProduct(string id)
         {
-            var filter = Builders<Product>.Filter.Eq(p => p.Id, product.Id);
+            var filter = Builders<Product>.Filter.Eq(p => p.Id, id);
             var deleteResult = await _catalogContext
                             .Products
                             .DeleteOneAsync(filter);
