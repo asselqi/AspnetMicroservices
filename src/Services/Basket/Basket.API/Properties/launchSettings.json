@@ -20,13 +20,19 @@
     },
     "Basket.API": {
       "commandName": "Project",
+      "workingDirectory": "C:\\Users\\lenovo\\source\\repos\\AspnetMicroservices\\src\\Services\\Basket\\Basket.API",
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "workingDirectory": "C:\\Users\\lenovo\\source\\repos\\AspnetMicroservices\\src\\Services\\Basket\\Basket.API",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "applicationUrl": "http://localhost:5001"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
+      "publishAllPorts": true
     }
   },
   "$schema": "https://json.schemastore.org/launchsettings.json",
